@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Batalla Pokémon</title>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="game.js"></script>
+  </head>
+  <body>
+    <div class="desktop">
+      <div class="screen-wrapper">
+        <div class="screen">
+          <!-- ================== BARRA SUPERIOR (JUGADOR 2) ================== -->
+          <div class="barra-superior">
+            <!-- Botón MOCHILA J2 (AZUL) - PRIMERO -->
+            <button id="bag-p2" class="boton-mochila">
+              <div class="rectangle-mochila"></div>
+              <span class="text-wrapper-mochila">MOCHILA</span>
+            </button>
+
+            <!-- Botón ATACAR J2 (ROJO) - MÁS PEQUEÑO -->
+            <button id="attack-p2" class="boton-atacar">
+              <div class="rectangle"></div>
+              <span class="text-wrapper">ATACAR</span>
+            </button>
+
+            <!-- Vida J2 -->
+            <div class="life-box" id="p2-panel">
+              <div class="div"></div>
+              <span id="p2-name" class="text-wrapper-2">Pokemon J2</span>
+              <div id="p2-hp-bar" class="rectangle-2"></div>
+              <div class="rectangle-3"></div>
+            </div>
+
+            <!-- Pokéballs J2 -->
+            <div
+              class="group pokeball"
+              data-player="2"
+              data-index="0"
+              title="Pokémon 1 J2"
+            >
+              <img class="image" src="img/image 4.png" alt="Pokémon 1 J2" />
+            </div>
+
+            <div
+              class="image-wrapper pokeball"
+              data-player="2"
+              data-index="1"
+              title="Pokémon 2 J2"
+            >
+              <img class="img" src="img/image 5.png" alt="Pokémon 2 J2" />
+            </div>
+
+            <div
+              class="img-wrapper pokeball"
+              data-player="2"
+              data-index="2"
+              title="Pokémon 3 J2"
+            >
+              <img class="image-2" src="img/image 6.png" alt="Pokémon 3 J2" />
+            </div>
+          </div>
+
+          <!-- ================== ZONA DE BATALLA ================== -->
+          <div class="screen-2">
+            <!-- Sprite grande J1 (abajo/izquierda) -->
+            <img
+              id="p1-sprite"
+              class="pokemon"
+              src="img/pokemon2.png"
+              alt="Pokémon Jugador 1"
+            />
+
+            <!-- Sprite grande J2 (arriba/derecha) -->
+            <img
+              id="p2-sprite"
+              class="pokemon-2"
+              src="img/pokemon1.png"
+              alt="Pokémon Jugador 2"
+            />
+          </div>
+
+          <!-- ================== BARRA INFERIOR (JUGADOR 1) ================== -->
+          <div class="barra-inferior">
+            <!-- Botón MOCHILA J1 (AZUL) - PRIMERO -->
+            <button id="bag-p1" class="boton-mochila-inferior">
+              <div class="rectangle-mochila"></div>
+              <span class="text-wrapper-mochila">MOCHILA</span>
+            </button>
+
+            <!-- Pokéballs J1 -->
+            <div
+              class="group-2 pokeball"
+              data-player="1"
+              data-index="0"
+              title="Pokémon 1 J1"
+            >
+              <img class="image-3" src="img/image 2.png" alt="Pokémon 1 J1" />
+            </div>
+
+            <div
+              class="group-3 pokeball"
+              data-player="1"
+              data-index="1"
+              title="Pokémon 2 J1"
+            >
+              <img class="image-4" src="img/image 1.png" alt="Pokémon 2 J1" />
+            </div>
+
+            <div
+              class="group-4 pokeball"
+              data-player="1"
+              data-index="2"
+              title="Pokémon 3 J1"
+            >
+              <img class="image-5" src="img/image 3.png" alt="Pokémon 3 J1" />
+            </div>
+
+            <!-- Vida J1 -->
+            <div class="life-box-2" id="p1-panel">
+              <div class="div"></div>
+              <span id="p1-name" class="text-wrapper-2">Pokemon J1</span>
+              <div id="p1-hp-bar" class="rectangle-2"></div>
+              <div class="rectangle-3"></div>
+            </div>
+
+            <!-- Botón ATACAR J1 -->
+            <button id="attack-p1" class="boton-atacar-2">
+              <div class="rectangle"></div>
+              <span class="text-wrapper">ATACAR</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================== VENTANA MOCHILA (COMPARTIDA) ================== -->
+    <div id="ventana-mochila" class="ventana-mochila oculto">
+      <div class="contenido-mochila">
+        <h3>Mochila</h3>
+
+        <p>
+          Pociones pequeñas (+20 PS):
+          <span id="contador-pequena">4</span>
+          <button id="btn-usar-pequena">Usar</button>
+        </p>
+
+        <p>
+          Pociones medianas (+40 PS):
+          <span id="contador-mediana">3</span>
+          <button id="btn-usar-mediana">Usar</button>
+        </p>
+
+        <button id="btn-cerrar-mochila">Cerrar</button>
+      </div>
+    </div>
+  </body>
+</html>

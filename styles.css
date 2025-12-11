@@ -1,0 +1,338 @@
+.desktop {
+  background-color: #ffffff;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+}
+
+.desktop .screen-wrapper {
+  background-color: #ffffff;
+  width: 1440px;
+  display: flex;
+  padding: 0 122px;
+  align-items: flex-start;
+}
+
+.desktop .screen {
+  width: 1195px;
+  height: 1024px;
+  display: flex;
+  flex-direction: column;
+}
+
+.desktop .barra-superior {
+  background-color: #424242;
+  width: 1195px;
+  height: 175px;
+  display: flex;
+}
+
+.desktop .boton-atacar {
+  margin-top: 16px;
+  width: 208px;
+  height: 144px;
+  position: relative;
+  margin-left: 27px;
+}
+
+.desktop .rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 206px;
+  height: 144px;
+  background-color: #c20707;
+}
+
+.desktop .text-wrapper {
+  position: absolute;
+  top: 35px;
+  left: 16px;
+  font-family: "Konkhmer Sleokchher-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .life-box {
+  margin-top: 26px;
+  width: 390px;
+  height: 123px;
+  position: relative;
+  margin-left: 8px;
+}
+
+.desktop .div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 442px;
+  height: 123px;
+  background-color: #d9d9d9;
+  border: 6px solid;
+  border-color: #060606;
+}
+
+.desktop .text-wrapper-2 {
+  position: absolute;
+  top: 16px;
+  left: 24px;
+  width: 186px;
+  font-family: "Konkhmer Sleokchher-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .rectangle-2 {
+  position: absolute;
+  top: 61px;
+  left: 24px;
+  width: 383px;
+  height: 36px;
+  background-color: #1daf07;
+}
+
+.desktop .rectangle-3 {
+  position: absolute;
+  top: 61px;
+  left: 19px;
+  width: 388px;
+  height: 30px;
+  border: 6px solid;
+  border-color: #000000;
+}
+
+.desktop .group {
+  margin-top: 15px;
+  margin-left: 74px;
+  background-image: url(./img/pokeball.png);
+  width: 130px;
+  height: 151px;
+  display: flex;
+  background-size: 100% 100%;
+}
+
+.desktop .image {
+  margin-top: 35px;
+  width: 117px;
+  height: 85px;
+  margin-left: 13px;
+  aspect-ratio: 1.38;
+}
+
+.desktop .image-wrapper {
+  margin-top: 15px;
+  margin-left: 11px;
+  background-image: url(./img/pokeball.png);
+  width: 130px;
+  height: 151px;
+  display: flex;
+  background-size: 100% 100%;
+}
+
+.desktop .img {
+  margin-top: 23px;
+  width: 113px;
+  height: 98px;
+  margin-left: 17px;
+  aspect-ratio: 1.15;
+}
+
+.desktop .img-wrapper {
+  margin-top: 12px;
+  margin-left: 11px;
+  background-image: url(./img/pokeball.png);
+  width: 130px;
+  height: 151px;
+  display: flex;
+  background-size: 100% 100%;
+}
+
+.desktop .image-2 {
+  margin-top: 27px;
+  width: 86px;
+  height: 97px;
+  margin-left: 27px;
+  aspect-ratio: 0.89;
+}
+
+.desktop .screen-2 {
+  width: 1195px;
+  height: 672.55px;
+  margin-top: 1px;
+  display: flex;
+  gap: 141px;
+  background-image: url(./img/background.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.desktop .pokemon {
+  margin-top: 241.3px;
+  width: 341.67px;
+  height: 341.67px;
+  margin-left: 202.3px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .pokemon-2 {
+  margin-top: 40px;
+  width: 800px;
+  height: 349.13px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .barra-inferior {
+  margin-top: 0.4px;
+  background-color: #434242;
+  width: 1195px;
+  height: 175px;
+  display: flex;
+}
+
+.desktop .group-2 {
+  margin-top: 13px;
+  background-image: url(./img/pokeball.png);
+  width: 130px;
+  height: 151px;
+  display: flex;
+  background-size: 100% 100%;
+}
+
+.desktop .image-3 {
+  margin-top: 20px;
+  width: 112px;
+  height: 95px;
+  margin-left: 18px;
+  aspect-ratio: 1.18;
+}
+
+.desktop .group-3 {
+  margin-top: 13px;
+  margin-left: 7px;
+  background-image: url(./img/pokeball.png);
+  width: 130px;
+  height: 151px;
+  display: flex;
+  background-size: 100% 100%;
+}
+
+.desktop .image-4 {
+  margin-top: 20px;
+  width: 111px;
+  height: 103px;
+  margin-left: 19px;
+  aspect-ratio: 1.08;
+}
+
+.desktop .group-4 {
+  margin-top: 13px;
+  margin-left: 7px;
+  background-image: url(./img/pokeball.png);
+  width: 130px;
+  height: 151px;
+  display: flex;
+  background-size: 100% 100%;
+}
+
+.desktop .image-5 {
+  margin-top: 35px;
+  width: 90px;
+  height: 88px;
+  margin-left: 30px;
+  aspect-ratio: 1.02;
+}
+
+.desktop .life-box-2 {
+  margin-top: 27px;
+  width: 390px;
+  height: 123px;
+  position: relative;
+  margin-left: 20px;
+}
+
+.desktop .boton-atacar-2 {
+  margin-top: 17px;
+  width: 208px;
+  height: 144px;
+  position: relative;
+  margin-left: 70px;
+}
+
+/* Botones reales y puntero */
+.boton-atacar,
+.boton-atacar-2 {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* Desactivar botón del jugador que NO tiene el turno */
+.boton-atacar.disabled,
+.boton-atacar-2.disabled {
+  filter: grayscale(1);
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+/* Animación de la barra de vida */
+#p1-hp-bar,
+#p2-hp-bar {
+  transition: width 0.3s ease;
+}
+
+/* Resaltar panel del jugador con el turno */
+.turno-activo {
+  box-shadow: 0 0 15px 3px #ffeb3b;
+}
+/* Sprite grande del jugador 2 */
+.desktop .pokemon-2,
+.desktop #p2-sprite {
+  margin-top: 40px;
+  height: 340px;      /* solo controlas la altura */
+  width: auto;        /* el ancho se adapta */
+  object-fit: contain;/* respeta la proporción de la imagen */
+  aspect-ratio: auto; /* por si el navegador usa la propiedad anterior */
+}
+
+.oculto {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.ventana-mochila {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.contenido-mochila {
+  background: #f5f5f5;
+  border: 4px solid #000;
+  padding: 16px 24px;
+  min-width: 260px;
+  font-family: sans-serif;
+}
+
+.contenido-mochila h3 {
+  margin-top: 0;
+}
+
+.contenido-mochila button {
+  margin-left: 8px;
+}
+
